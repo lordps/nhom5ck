@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: #cccccc;
+    min-height: 70px;
+    padding: 15px;
+}
+main{
+    background-color: #dddddd;
+    min-height: 300px;
+    padding: 7.5px 15px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted #cccccc;
+    border-radius: 10px;
+}
+h1{
+    color: #34c0d2;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.input-box input{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.btn-box{
+    margin-top: 50px;
+    color: #fff;
+}
+.btn-box button{
+    padding: 7.5px 150px;
+    background-color: rgb(25, 216, 25);
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(202, 202, 202);
+}
+#bg{
+    background-color: rgb(69, 69, 69);
+}
+.up{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+}
+.up ul{
+    list-style: none;
+    margin-top: -10px;
+    margin-left: 0px;
+}
+.up ul li{
+    display: inline-block;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+.logo a img{
+    padding-right: 40px;
+}
+.chao {
+    float: right;
+}
+.no0{
+    color: #fff;
+    background-color: #3769d4;
+    border-color: rgba(0,0,0,.2);
+    height: 40px;
+}
+.no1{
+    border-bottom: 1px solid #ebebeb;
+}
+.no2{
+    background-color: #cb3535;
+    border-color: rgba(0,0,0,.2);
+    height: 40px;
+}
+.a{
+    color: #fff;
+    text-decoration: none;
+}
+.c{
+    color: aqua;
+}
+.q{
+    text-decoration: none;
+}
+.li.no1{
+    display: inline-block;
+}
+.one{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+.one a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+}
+.one a:hover {background-color: #fff;}
+.no1:hover .one{
+    display: block;
+}
